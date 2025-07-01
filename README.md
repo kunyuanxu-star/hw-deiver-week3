@@ -2,6 +2,10 @@
 
 ## QEMU实验（任选其一完成）
 
+所有实验基于 ArceOS 实现
+
+ArceOS仓库：https://github.com/arceos-org/arceos
+
 完成后，请将运行效果截图和代码仓库链接提交至 https://github.com/kunyuanxu-star/hw-deiver-week3/issues/1
 
 ### 实验 1：基于 QEMU ARM64 Virt 的 UART 驱动实现
@@ -12,19 +16,19 @@
 
 
 
-### 实验 2：基于 QEMU ARM64 Virt 的 SPI 驱动实现
-
-#### 目标
-
-实现简化的 SPI 驱动，支持 QEMU virt 机型的 Allwinner A10 SPI 控制器（或其它型号 SPI 控制器），实现简单的数据传输（发送并接收固定数据）。
-
-
-
-### 实验 3：基于 QEMU ARM64 Virt 的 I2C 驱动实现
+### 实验 2：基于 QEMU ARM64 Virt 的 I2C 驱动实现
 
 #### 目标
 
 实现简化的 I2C 驱动，支持 QEMU virt 机型的 Allwinner I2C 控制器（或其它型号 I2C 控制器），实现基本数据写入功能。
+
+
+
+### 实验 3：基于 QEMU ARM64 Virt 的 SPI 驱动实现
+
+#### 目标
+
+实现简化的 SPI 驱动，支持 QEMU virt 机型的 Allwinner A10 SPI 控制器（或其它型号 SPI 控制器），实现简单的数据传输（发送并接收固定数据）。
 
 
 
